@@ -12,5 +12,9 @@ pypdf==6.19.0
 requests==2.34.2
 fastapi==0.142.2
 langchain-chroma==1.1.0
-langserve==0.3.3
+langserve[server]==0.3.3
 ipykernel==7.3.0
+
+uvicorn>=0.30,<1
+tavily-python>=0.7,<1
+langsmith>=0.4,<1
